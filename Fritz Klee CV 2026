@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fritz Wilhelm Klee - Corporate Banking CV</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        brand: {
+                            50: '#f0f7ff',
+                            100: '#e0effe',
+                            800: '#075985',
+                            900: '#0f172a', // Deep corporate slate/navy
+                            accent: '#0284c7', // Professional blue
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8fafc;
+        }
+        @media print {
+            body {
+                background-color: #ffffff;
+                font-size: 12px;
+            }
+            .no-print {
+                display: none !important;
+            }
+            .print-shadow-none {
+                box-shadow: none !important;
+            }
+            .page-break {
+                page-break-before: always;
+            }
+            .print-p-0 {
+                padding: 0 !important;
+            }
+        }
+    </style>
+</head>
+<body class="text-slate-800 antialiased print:bg-white print:text-black">
+
+    <!-- Top Action Bar (Hidden when printed) -->
+    <div class="no-print max-w-5xl mx-auto mt-6 px-4 flex justify-between items-center">
+        <p class="text-sm text-slate-500">
+            <i class="fa-solid fa-circle-info mr-1 text-brand-accent"></i> 
+            Click the button to save this beautiful design as a professional PDF.
+        </p>
+        <button onclick="window.print()" class="bg-brand-accent hover:bg-brand-800 text-white font-semibold py-2 px-5 rounded-lg shadow-md transition duration-200 flex items-center gap-2 text-sm">
+            <i class="fa-solid fa-file-pdf"></i> Print / Save as PDF
+        </button>
+    </div>
+
+    <!-- Main CV Wrapper -->
+    <main class="max-w-5xl mx-auto my-6 bg-white shadow-xl rounded-xl overflow-hidden print-shadow-none print:my-0 print:rounded-none">
+        
+        <!-- Header Banner -->
+        <header class="bg-gradient-to-r from-brand-900 via-slate-800 to-brand-800 text-white px-8 py-10 md:px-12 flex flex-col md:flex-row justify-between items-start md:items-center gap-6 border-b-4 border-brand-accent">
+            <div>
+                <h1 class="text-3xl md:text-4xl font-extrabold tracking-tight">FRITZ WILHELM KLEE</h1>
+                <p class="text-brand-accent font-semibold tracking-wider uppercase mt-1 text-sm md:text-base">Corporate Banking Implementation & Operations Lead</p>
+                <p class="text-slate-300 text-xs md:text-sm mt-1 flex items-center gap-2">
+                    <span><i class="fa-solid fa-flag text-xs"></i> South African</span>
+                </p>
+            </div>
+            <!-- Contact Quick Details -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-1 gap-3 text-sm text-slate-200 w-full md:w-auto">
+                <a href="tel:+270715095682" class="flex items-center gap-2 hover:text-brand-accent transition">
+                    <i class="fa-solid fa-phone text-brand-accent w-4"></i> (+27) 071 509 5682
+                </a>
+                <a href="mailto:fritz.klee@icloud.com" class="flex items-center gap-2 hover:text-brand-accent transition">
+                    <i class="fa-solid fa-envelope text-brand-accent w-4"></i> fritz.klee@icloud.com
+                </a>
+                <span class="flex items-center gap-2">
+                    <i class="fa-solid fa-location-dot text-brand-accent w-4"></i> Paulshof, Johannesburg
+                </span>
+                <a href="https://www.linkedin.com/in/fritz-klee" target="_blank" class="flex items-center gap-2 hover:text-brand-accent transition">
+                    <i class="fa-brands fa-linkedin text-brand-accent w-4"></i> linkedin.com/in/fritz-klee
+                </a>
+            </div>
+        </header>
+
+        <!-- Main Body Grid -->
+        <div class="grid grid-cols-1 lg:grid-cols-3">
+            
+            <!-- Left Column: Personal Brand, Competencies, Committees, Education -->
+            <section class="lg:col-span-1 bg-slate-50 p-8 border-r border-slate-100 print:bg-white">
+                
+                <!-- Competencies Section -->
+                <div class="mb-8">
+                    <h3 class="text-sm font-bold uppercase tracking-wider text-brand-900 border-b-2 border-brand-accent pb-2 mb-4 flex items-center gap-2">
+                        <i class="fa-solid fa-cubes text-brand-accent"></i> Core Competencies
+                    </h3>
+                    <div class="flex flex-wrap lg:flex-col gap-2">
+                        <span class="bg-white px-3 py-1.5 rounded border border-slate-200 text-xs font-medium text-slate-700 shadow-sm flex items-center gap-1.5">
+                            <i class="fa-solid fa-check text-brand-accent"></i> Technical Integration (H2H)
+                        </span>
+                        <span class="bg-white px-3 py-1.5 rounded border border-slate-200 text-xs font-medium text-slate-700 shadow-sm flex items-center gap-1.5">
+                            <i class="fa-solid fa-check text-brand-accent"></i> Channel Onboarding
+                        </span>
+                        <span class="bg-white px-3 py-1.5 rounded border border-slate-200 text-xs font-medium text-slate-700 shadow-sm flex items-center gap-1.5">
+                            <i class="fa-solid fa-check text-brand-accent"></i> API Workflows & Protocols
+                        </span>
+                        <span class="bg-white px-3 py-1.5 rounded border border-slate-200 text-xs font-medium text-slate-700 shadow-sm flex items-center gap-1.5">
+                            <i class="fa-solid fa-check text-brand-accent"></i> Project & Delivery Mgmt
+                        </span>
+                        <span class="bg-white px-3 py-1.5 rounded border border-slate-200 text-xs font-medium text-slate-700 shadow-sm flex items-center gap-1.5">
+                            <i class="fa-solid fa-check text-brand-accent"></i> Corporate Relationships
+                        </span>
+                        <span class="bg-white px-3 py-1.5 rounded border border-slate-200 text-xs font-medium text-slate-700 shadow-sm flex items-center gap-1.5">
+                            <i class="fa-solid fa-check text-brand-accent"></i> Operational Governance
+                        </span>
+                        <span class="bg-white px-3 py-1.5 rounded border border-slate-200 text-xs font-medium text-slate-700 shadow-sm flex items-center gap-1.5">
+                            <i class="fa-solid fa-check text-brand-accent"></i> Risk, KYC & AML Compliance
+                        </span>
+                    </div>
+                </div>
+
+                <!-- Committee & Governance Representation -->
+                <div class="mb-8">
+                    <h3 class="text-sm font-bold uppercase tracking-wider text-brand-900 border-b-2 border-brand-accent pb-2 mb-4 flex items-center gap-2">
+                        <i class="fa-solid fa-gavel text-brand-accent"></i> Governance & Boards
+                    </h3>
+                    <ul class="space-y-3 text-xs text-slate-700">
+                        <li class="flex items-start gap-2">
+                            <i class="fa-solid fa-shield-halved text-brand-accent mt-0.5"></i>
+                            <div>
+                                <span class="font-semibold block">Operational Risk Committee</span>
+                                <span class="text-slate-500">Department Representative</span>
+                            </div>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <i class="fa-solid fa-users text-brand-accent mt-0.5"></i>
+                            <div>
+                                <span class="font-semibold block">Customer Review Committee</span>
+                                <span class="text-slate-500">Department Representative</span>
+                            </div>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <i class="fa-solid fa-user-shield text-brand-accent mt-0.5"></i>
+                            <div>
+                                <span class="font-semibold block">AML Steerco</span>
+                                <span class="text-slate-500">Department Representative</span>
+                            </div>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <i class="fa-solid fa-building-columns text-brand-accent mt-0.5"></i>
+                            <div>
+                                <span class="font-semibold block">Bank Cash & Stability Committee</span>
+                                <span class="text-slate-500">Financial Representative</span>
+                            </div>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <i class="fa-solid fa-globe text-brand-accent mt-0.5"></i>
+                            <div>
+                                <span class="font-semibold block">National Industry User Groups</span>
+                                <span class="text-slate-500">Industry Representative</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Education & Professional Credentials -->
+                <div class="mb-6">
+                    <h3 class="text-sm font-bold uppercase tracking-wider text-brand-900 border-b-2 border-brand-accent pb-2 mb-4 flex items-center gap-2">
+                        <i class="fa-solid fa-user-graduate text-brand-accent"></i> Education
+                    </h3>
+                    <div class="space-y-4 text-xs">
+                        <div class="bg-white p-3 rounded border border-slate-100 shadow-sm">
+                            <span class="font-bold text-slate-800 block">Henley Business School</span>
+                            <span class="text-brand-accent font-medium block">Advanced Cert. in Management Practices (NQF 6)</span>
+                            <span class="text-slate-500 block mt-0.5"><i class="fa-solid fa-calendar-days text-[10px] mr-1"></i> May 2024</span>
+                        </div>
+                        <div class="bg-white p-3 rounded border border-slate-100 shadow-sm">
+                            <span class="font-bold text-slate-800 block">Milpark Business School</span>
+                            <span class="text-brand-accent font-medium block">Cert. in Banking and Financial Advice (NQF 5)</span>
+                            <span class="text-slate-500 block mt-0.5"><i class="fa-solid fa-calendar-days text-[10px] mr-1"></i> Dec 2010</span>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <!-- Right Column: Summary & Detailed Professional Experience -->
+            <section class="lg:col-span-2 p-8 md:p-10">
+                
+                <!-- Professional Summary -->
+                <div class="mb-8">
+                    <h3 class="text-base font-bold uppercase tracking-wider text-brand-900 border-b-2 border-brand-accent pb-2 mb-4 flex items-center gap-2">
+                        <i class="fa-solid fa-user-tie text-brand-accent"></i> Professional Profile
+                    </h3>
+                    <p class="text-slate-600 text-sm leading-relaxed text-justify">
+                        Versatile, technically adept Corporate Banking professional with over 15 years of experience bridging the gap between complex digital technology and corporate business requirements. Proven expertise in technical client implementation, corporate digital channel onboarding, integration project management, and operational governance. Adept at managing high-value corporate portfolios, streamlining technical workflows, and leading cross-functional teams to modernize banking infrastructure. Currently completing a 12-month fixed-term contract at Standard Bank and actively seeking a permanent corporate opportunity.
+                    </p>
+                </div>
+
+                <!-- Work Experience Timeline -->
+                <div class="mb-8">
+                    <h3 class="text-base font-bold uppercase tracking-wider text-brand-900 border-b-2 border-brand-accent pb-2 mb-6 flex items-center gap-2">
+                        <i class="fa-solid fa-briefcase text-brand-accent"></i> Professional Experience
+                    </h3>
+                    
+                    <div class="space-y-8 relative before:absolute before:top-0 before:bottom-0 before:left-3.5 before:w-0.5 before:bg-slate-200">
+                        
+                        <!-- Role 1 -->
+                        <div class="relative pl-8">
+                            <!-- Bullet Indicator -->
+                            <span class="absolute left-1.5 top-1.5 w-4.5 h-4.5 bg-brand-accent border-4 border-white rounded-full shadow-sm"></span>
+                            
+                            <div class="flex flex-col sm:flex-row sm:justify-between sm:items-start gap-1 mb-2">
+                                <div>
+                                    <h4 class="text-base font-bold text-slate-950">Implementation Manager (FTC)</h4>
+                                    <p class="text-xs font-semibold text-slate-500 uppercase tracking-wide">Standard Bank Group</p>
+                                </div>
+                                <span class="bg-brand-50 text-brand-800 px-2.5 py-1 rounded text-xs font-semibold whitespace-nowrap self-start">
+                                    Jan 2026 – Present
+                                </span>
+                            </div>
+                            
+                            <ul class="space-y-2 text-xs text-slate-600 mt-3 list-disc list-outside pl-4">
+                                <li><strong class="text-slate-800">Digital Channel Onboarding:</strong> Leading the technical implementation and onboarding of corporate clients onto premium corporate digital banking channels (Business Online).</li>
+                                <li><strong class="text-slate-800">Technical Client Integration:</strong> Managing end-to-end technical deployments, specializing in Host-to-Host (H2H) integrations, automated file delivery protocols, and structured financial messaging architectures.</li>
+                                <li><strong class="text-slate-800">Cross-Functional Collaboration:</strong> Coordinating directly between corporate client IT/treasury teams and internal engineering departments to streamline deployment pipelines and minimize delivery timelines.</li>
+                                <li><strong class="text-slate-800">Project Delivery & Governance:</strong> Driving delivery schedules for complex client integrations, acting as the primary point of escalation for technical bottlenecks while ensuring strict adherence to banking operational risk frameworks.</li>
+                            </ul>
+                        </div>
+
+                        <!-- Role 2: Project 2 -->
+                        <div class="relative pl-8">
+                            <!-- Bullet Indicator -->
+                            <span class="absolute left-1.5 top-1.5 w-4.5 h-4.5 bg-brand-accent border-4 border-white rounded-full shadow-sm"></span>
+                            
+                            <div class="flex flex-col sm:flex-row sm:justify-between sm:items-start gap-1 mb-2">
+                                <div>
+                                    <h4 class="text-base font-bold text-slate-950">Independent Corporate Technology Consultant (Project 2)</h4>
+                                    <p class="text-xs font-semibold text-slate-500 uppercase tracking-wide">Self-Employed</p>
+                                </div>
+                                <span class="bg-slate-100 text-slate-700 px-2.5 py-1 rounded text-xs font-semibold whitespace-nowrap self-start">
+                                    Oct 2025 – Dec 2025
+                                </span>
+                            </div>
+                            
+                            <ul class="space-y-2 text-xs text-slate-600 mt-3 list-disc list-outside pl-4">
+                                <li><strong class="text-slate-800">Strategic Advisory:</strong> Advised corporate banking clients on post-sabbatical system alignments, technical system integration, and data transparency initiatives.</li>
+                                <li><strong class="text-slate-800">Operational Mapping:</strong> Guided financial institutions through operational efficiency mapping and modernized treasury workflow alignments.</li>
+                            </ul>
+                        </div>
+
+                        <!-- Professional Sabbatical & Personal Development -->
+                        <div class="relative pl-8">
+                            <!-- Bullet Indicator -->
+                            <span class="absolute left-1.5 top-1.5 w-4.5 h-4.5 bg-brand-accent border-4 border-white rounded-full shadow-sm"></span>
+                            
+                            <div class="flex flex-col sm:flex-row sm:justify-between sm:items-start gap-1 mb-2">
+                                <div>
+                                    <h4 class="text-base font-bold text-slate-950">Professional Sabbatical & Personal Development</h4>
+                                    <p class="text-xs font-semibold text-slate-500 uppercase tracking-wide">Rishikesh, India</p>
+                                </div>
+                                <span class="bg-slate-100 text-slate-700 px-2.5 py-1 rounded text-xs font-semibold whitespace-nowrap self-start">
+                                    Jul 2025 – Sep 2025
+                                </span>
+                            </div>
+                            
+                            <ul class="space-y-2 text-xs text-slate-600 mt-3 list-disc list-outside pl-4">
+                                <li><strong class="text-slate-800">Experiential Learning:</strong> Undertook a structured international travel sabbatical to India to broaden global perspectives and cultivate deep cross-cultural adaptability.</li>
+                                <li><strong class="text-slate-800">Intensive Certifications:</strong> Completed immersive training and certified in classical Ashtanga, Hatha Yoga, and Yoga Therapy at recognized institutes in Rishikesh.</li>
+                                <li><strong class="text-slate-800">Leadership & Wellness Skills:</strong> Developed advanced self-discipline, mental endurance, and stress-resilience methodologies, directly reinforcing high-performance leadership and focus in demanding, high-pressure corporate banking roles.</li>
+                            </ul>
+                        </div>
+
+                        <!-- Role 3: Project 1 -->
+                        <div class="relative pl-8">
+                            <!-- Bullet Indicator -->
+                            <span class="absolute left-1.5 top-1.5 w-4.5 h-4.5 bg-brand-accent border-4 border-white rounded-full shadow-sm"></span>
+                            
+                            <div class="flex flex-col sm:flex-row sm:justify-between sm:items-start gap-1 mb-2">
+                                <div>
+                                    <h4 class="text-base font-bold text-slate-950">Independent Corporate Technology Consultant (Project 1)</h4>
+                                    <p class="text-xs font-semibold text-slate-500 uppercase tracking-wide">Self-Employed</p>
+                                </div>
+                                <span class="bg-slate-100 text-slate-700 px-2.5 py-1 rounded text-xs font-semibold whitespace-nowrap self-start">
+                                    Mar 2025 – Jun 2025
+                                </span>
+                            </div>
+                            
+                            <ul class="space-y-2 text-xs text-slate-600 mt-3 list-disc list-outside pl-4">
+                                <li><strong class="text-slate-800">Infrastructure Modernization:</strong> Advised corporate banking clients on strategic adoption and technical implementation strategies for modernizing legacy financial infrastructures.</li>
+                                <li><strong class="text-slate-800">Change Management:</strong> Guided financial institutions through major global structural and industry standards reforms, ensuring operational readiness and minimal client disruption.</li>
+                            </ul>
+                        </div>
+
+                        <!-- Role 4: Bidvest Bank Progressive Career (13 Years) -->
+                        <div class="relative pl-8">
+                            <!-- Bullet Indicator -->
+                            <span class="absolute left-1.5 top-1.5 w-4.5 h-4.5 bg-brand-accent border-4 border-white rounded-full shadow-sm"></span>
+                            
+                            <div class="flex flex-col sm:flex-row sm:justify-between sm:items-start gap-1 mb-2">
+                                <div>
+                                    <h4 class="text-base font-bold text-slate-950">Manager: Operations, Corporate Relations & Domain SME</h4>
+                                    <p class="text-xs font-semibold text-slate-500 uppercase tracking-wide">Bidvest Bank Limited</p>
+                                </div>
+                                <span class="bg-brand-50 text-brand-800 px-2.5 py-1 rounded text-xs font-semibold whitespace-nowrap self-start">
+                                    Feb 2012 – Feb 2025 (13 Years)
+                                </span>
+                            </div>
+
+                            <p class="text-xs text-slate-500 italic mt-1 font-medium">Demonstrated progressive growth, promotion, and leadership over a distinguished 13-year tenure:</p>
+                            
+                            <!-- Sub-role A -->
+                            <div class="mt-3 border-l-2 border-slate-200 pl-3">
+                                <span class="text-xs font-bold text-slate-800 block">Manager: Operations, Corporate Relations & Domain SME <span class="text-slate-400 font-normal">(Feb 2019 – Feb 2025)</span></span>
+                                <ul class="space-y-1.5 text-xs text-slate-600 mt-1.5 list-disc list-outside pl-4">
+                                    <li><strong class="text-slate-800">Global Network Management:</strong> Managed and optimized critical global correspondent banking relationships, clearing networks, and partner institution frameworks (e.g., Standard Chartered, Wells Fargo) to ensure seamless service delivery.</li>
+                                    <li><strong class="text-slate-800">Client Onboarding & Governance:</strong> Led end-to-end corporate and institutional onboarding pipelines, managing complex due diligence, FICA/AML compliance, T&Cs, and SLA negotiations.</li>
+                                    <li><strong class="text-slate-800">Operational Excellence & Risk:</strong> Directed core operational departments, oversaw high-value daily transactional streams, and ensured strict compliance with FIC, FATF, and OFAC statutory standards.</li>
+                                    <li><strong class="text-slate-800">Technical Modernization:</strong> Collaborated with business analysts to translate corporate business requirements into functional specs for core platform updates.</li>
+                                </ul>
+                            </div>
+
+                            <!-- Sub-role B -->
+                            <div class="mt-4 border-l-2 border-slate-200 pl-3">
+                                <span class="text-xs font-bold text-slate-800 block">Senior Team Leader: Corporate Settlements & Onboarding <span class="text-slate-400 font-normal">(Jan 2015 – Jan 2019)</span></span>
+                                <ul class="space-y-1.5 text-xs text-slate-600 mt-1.5 list-disc list-outside pl-4">
+                                    <li><strong class="text-slate-800">Operational Leadership:</strong> Supervised a team of settlement and clearing specialists, driving key performance indicators (KPIs) and managing daily high-value clearings.</li>
+                                    <li><strong class="text-slate-800">Technical Support:</strong> Acted as the senior escalation point for corporate digital channel setup errors, resolving technical integration and SWIFT messaging queries.</li>
+                                </ul>
+                            </div>
+
+                            <!-- Sub-role C -->
+                            <div class="mt-4 border-l-2 border-slate-200 pl-3">
+                                <span class="text-xs font-bold text-slate-800 block">Corporate Banking Support & Settlements Officer <span class="text-slate-400 font-normal">(Feb 2012 – Dec 2014)</span></span>
+                                <ul class="space-y-1.5 text-xs text-slate-600 mt-1.5 list-disc list-outside pl-4">
+                                    <li><strong class="text-slate-800">Daily Clearing Runs:</strong> Executed end-of-day domestic settlement processes and facilitated basic onboarding procedures for corporate clients.</li>
+                                    <li><strong class="text-slate-800">Governance Reporting:</strong> Prepared foundational regulatory reporting documentation for administrative compliance reviews.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Page Break For Perfect Multi-page Print Layouts -->
+                <div class="page-break"></div>
+
+                <!-- Technical Certifications & Credentials -->
+                <div class="mb-8 pt-4 lg:pt-0">
+                    <h3 class="text-base font-bold uppercase tracking-wider text-brand-900 border-b-2 border-brand-accent pb-2 mb-4 flex items-center gap-2">
+                        <i class="fa-solid fa-certificate text-brand-accent"></i> Certifications & Credentials
+                    </h3>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-3 text-xs">
+                        <div class="bg-slate-50 p-3 rounded border border-slate-100 flex items-start gap-2.5">
+                            <i class="fa-solid fa-award text-brand-accent mt-0.5 text-sm"></i>
+                            <div>
+                                <span class="font-bold text-slate-800 block">PASA Advanced Certificate</span>
+                                <span class="text-slate-500">High-Value Operational Infrastructure</span>
+                                <span class="text-slate-400 block text-[10px] mt-0.5">May 2018</span>
+                            </div>
+                        </div>
+                        <div class="bg-slate-50 p-3 rounded border border-slate-100 flex items-start gap-2.5">
+                            <i class="fa-solid fa-award text-brand-accent mt-0.5 text-sm"></i>
+                            <div>
+                                <span class="font-bold text-slate-800 block">PASA Certificate</span>
+                                <span class="text-slate-500">Foundational Financial Infrastructure</span>
+                                <span class="text-slate-400 block text-[10px] mt-0.5">July 2017</span>
+                            </div>
+                        </div>
+                        <div class="bg-slate-50 p-3 rounded border border-slate-100 flex items-start gap-2.5">
+                            <i class="fa-solid fa-award text-brand-accent mt-0.5 text-sm"></i>
+                            <div>
+                                <span class="font-bold text-slate-800 block">Technical Systems Certifications</span>
+                                <span class="text-slate-500">ESA & Connect</span>
+                                <span class="text-slate-400 block text-[10px] mt-0.5">2023, 2024</span>
+                            </div>
+                        </div>
+                        <div class="bg-slate-50 p-3 rounded border border-slate-100 flex items-start gap-2.5">
+                            <i class="fa-solid fa-award text-brand-accent mt-0.5 text-sm"></i>
+                            <div>
+                                <span class="font-bold text-slate-800 block">Correspondent Banking Academy</span>
+                                <span class="text-slate-500">Standard Chartered Risk Academy</span>
+                                <span class="text-slate-400 block text-[10px] mt-0.5">2023, 2024</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- References Grid -->
+                <div>
+                    <h3 class="text-base font-bold uppercase tracking-wider text-brand-900 border-b-2 border-brand-accent pb-2 mb-4 flex items-center gap-2">
+                        <i class="fa-solid fa-users-rectangle text-brand-accent"></i> References
+                    </h3>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 text-xs">
+                        <div class="bg-slate-50 p-4 rounded-lg border border-slate-150">
+                            <p class="font-bold text-slate-900 text-sm">Jill Murtagh</p>
+                            <p class="text-brand-accent font-medium mb-2">Previous Exec. Head of Payments & Settlements</p>
+                            <div class="space-y-1 text-slate-600">
+                                <p><i class="fa-solid fa-phone text-slate-400 mr-1.5 w-3.5"></i> +27 79 529 4578</p>
+                                <p><i class="fa-solid fa-envelope text-slate-400 mr-1.5 w-3.5"></i> jill@meetjillmurtagh.co.za</p>
+                            </div>
+                        </div>
+                        <div class="bg-slate-50 p-4 rounded-lg border border-slate-150">
+                            <p class="font-bold text-slate-900 text-sm">Gill Moir</p>
+                            <p class="text-brand-accent font-medium mb-2">GM: Banking Operations, Bidvest Bank</p>
+                            <div class="space-y-1 text-slate-600">
+                                <p><i class="fa-solid fa-phone text-slate-400 mr-1.5 w-3.5"></i> +27 82 457 0882</p>
+                                <p><i class="fa-solid fa-envelope text-slate-400 mr-1.5 w-3.5"></i> Gill.Moir@bidvestbank.co.za</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+        </div>
+
+    </main>
+
+</body>
+</html>
